@@ -1,0 +1,46 @@
+---
+layout: page
+title: Chess
+permalink: /chess/
+---
+
+<h4>--------------------------------------------</h4>
+<h4>
+  CFC Rating:
+  <a href="https://www.chess.ca/en/ratings/#/p/162494" target="_blank">1713</a>
+</h4>
+<h4>
+  Lichess Username:
+  <a href="https://lichess.org/@/andrewqiu" target="_blank">andrewqiu</a>
+</h4>
+<h4>
+  Chess.com Username:
+  <a href="https://www.chess.com/member/crushsoccer" target="_blank"
+    >crushsoccer</a
+  >
+</h4>
+
+<p>
+  I am obsessed with chess. I have started playing chess since I was three years
+  old back in my native country (China). Even though, I started playing chess at
+  such a young age, I have not accomplished anything in chess yet. My goal is to
+  achieve a FIDE master before I graduate from high school.
+</p>
+<h4>--------------------------------------------</h4>
+
+<h4>
+  Amateur to IM
+  <a href="https://lichess.org/study/h7eqBJmi" target="_blank">Study</a>
+</h4>
+<h5>
+  This study is based on the book, <i>Amateur to IM</i> by Jonathan Hawkins. It
+  talks about all the endgames that you need to know. The drawback is that it
+  does not go in deeply in each of the endgames.
+</h5>
+
+{% for post in site.categories.chess %}
+<li>
+  <span>{{ post.date | date_to_string }}</span> &nbsp;
+  <a href="{{ post.url }}">{{ post.title }}</a>
+</li>
+{% endfor %}

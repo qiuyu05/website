@@ -1,0 +1,32 @@
+---
+layout: page
+title: Programming
+permalink: /programming/
+---
+
+<h4>--------------------------------------------</h4>
+<h4>
+  Codeforces username:
+  <a href="https://codeforces.com/profile/crushsoccer" target="_blank"
+    >crushsoccer</a
+  >
+</h4>
+<h4>
+  DMOJ username:
+  <a href="https://dmoj.ca/user/qiuandrew51" target="_blank">qiuandrew51</a>
+</h4>
+
+<p>
+  I started competitive programming in 2020 so right now (2021) I am still a
+  beginner at competitive programming. I have made an instagram bot before by
+  watching some tutorials online using selenium. Unfortantly the account I was
+  using to test the bot got banned by instagram.
+</p>
+<h4>--------------------------------------------</h4>
+
+{% for post in site.categories.programming %}
+<li>
+  <span>{{ post.date | date_to_string }}</span> &nbsp;
+  <a href="{{ post.url }}">{{ post.title }}</a>
+</li>
+{% endfor %}
