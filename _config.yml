@@ -10,4 +10,3 @@ github_username: crushsoccer
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-stickyposts
