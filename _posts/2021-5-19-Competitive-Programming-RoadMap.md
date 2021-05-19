@@ -92,7 +92,7 @@ category: programming
 
 ## Harder Algorithms
 
-### This is the point where most programmers give up. Problems from this point and onwards will take much longer time to solve (4-5 hrs). You must invest time and never give up! You must do at least 30 problems on each of the topics to remember them.
+#### This is the point where most programmers give up. Problems from this point and onwards will take much longer time to solve (4-5 hrs). You must invest time and never give up! You must do at least 30 problems on each of the topics to remember them.
 
 - ### Hashing on string and solve problems, understand when collisions happens
 - ### Rabin Karp Algorithm
