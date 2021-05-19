@@ -17,7 +17,7 @@ category: programming
 
 - ### Do a bunch of pattern problems on codeforces
 
-  (It improves understanding of loop and your thinking)
+  (It improves understanding of loops and your thinking)
 
 - ### Linear Search and circular array
 
